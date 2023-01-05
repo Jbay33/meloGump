@@ -15,6 +15,13 @@
 		CAC5D5A3294A530B007EDE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5A1294A530B007EDE29 /* Main.storyboard */; };
 		CAC5D5A5294A530C007EDE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5A4294A530C007EDE29 /* Assets.xcassets */; };
 		CAC5D5A8294A530C007EDE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5A6294A530C007EDE29 /* LaunchScreen.storyboard */; };
+		CAC5D5D22965FA06007EDE29 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5D12965FA06007EDE29 /* MyParticle.sks */; };
+		CAC5D5D429660444007EDE29 /* mixkit-arcade-game-jump-coin-216 (1).wav in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5D329660444007EDE29 /* mixkit-arcade-game-jump-coin-216 (1).wav */; };
+		CAC5D5D6296604DC007EDE29 /* mixkit-cinematic-horror-trailer-long-sweep-561.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5D5296604DC007EDE29 /* mixkit-cinematic-horror-trailer-long-sweep-561.wav */; };
+		CAC5D5E029660633007EDE29 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5DF29660633007EDE29 /* MyScene.sks */; };
+		CAC5D5E229660694007EDE29 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5D5E129660694007EDE29 /* File.swift */; };
+		CAC5D5E4296749A6007EDE29 /* cringe.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5E3296749A6007EDE29 /* cringe.wav */; };
+		CAC5D5E629674B63007EDE29 /* yes.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D5E529674B63007EDE29 /* yes.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +34,13 @@
 		CAC5D5A2294A530B007EDE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAC5D5A4294A530C007EDE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAC5D5A7294A530C007EDE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAC5D5D12965FA06007EDE29 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		CAC5D5D329660444007EDE29 /* mixkit-arcade-game-jump-coin-216 (1).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-arcade-game-jump-coin-216 (1).wav"; sourceTree = "<group>"; };
+		CAC5D5D5296604DC007EDE29 /* mixkit-cinematic-horror-trailer-long-sweep-561.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cinematic-horror-trailer-long-sweep-561.wav"; sourceTree = "<group>"; };
+		CAC5D5DF29660633007EDE29 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		CAC5D5E129660694007EDE29 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CAC5D5E3296749A6007EDE29 /* cringe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cringe.wav; sourceTree = "<group>"; };
+		CAC5D5E529674B63007EDE29 /* yes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yes.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +77,17 @@
 				CAC5D599294A530B007EDE29 /* GameScene.sks */,
 				CAC5D59B294A530B007EDE29 /* Actions.sks */,
 				CAC5D59D294A530B007EDE29 /* GameScene.swift */,
+				CAC5D5DF29660633007EDE29 /* MyScene.sks */,
+				CAC5D5E129660694007EDE29 /* File.swift */,
+				CAC5D5D12965FA06007EDE29 /* MyParticle.sks */,
 				CAC5D59F294A530B007EDE29 /* GameViewController.swift */,
 				CAC5D5A1294A530B007EDE29 /* Main.storyboard */,
 				CAC5D5A4294A530C007EDE29 /* Assets.xcassets */,
 				CAC5D5A6294A530C007EDE29 /* LaunchScreen.storyboard */,
+				CAC5D5D329660444007EDE29 /* mixkit-arcade-game-jump-coin-216 (1).wav */,
+				CAC5D5D5296604DC007EDE29 /* mixkit-cinematic-horror-trailer-long-sweep-561.wav */,
+				CAC5D5E3296749A6007EDE29 /* cringe.wav */,
+				CAC5D5E529674B63007EDE29 /* yes.wav */,
 			);
 			path = doodleJump;
 			sourceTree = "<group>";
@@ -130,9 +151,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC5D5A3294A530B007EDE29 /* Main.storyboard in Resources */,
+				CAC5D5D22965FA06007EDE29 /* MyParticle.sks in Resources */,
+				CAC5D5D429660444007EDE29 /* mixkit-arcade-game-jump-coin-216 (1).wav in Resources */,
 				CAC5D59A294A530B007EDE29 /* GameScene.sks in Resources */,
+				CAC5D5E629674B63007EDE29 /* yes.wav in Resources */,
 				CAC5D5A5294A530C007EDE29 /* Assets.xcassets in Resources */,
 				CAC5D5A8294A530C007EDE29 /* LaunchScreen.storyboard in Resources */,
+				CAC5D5E4296749A6007EDE29 /* cringe.wav in Resources */,
+				CAC5D5D6296604DC007EDE29 /* mixkit-cinematic-horror-trailer-long-sweep-561.wav in Resources */,
+				CAC5D5E029660633007EDE29 /* MyScene.sks in Resources */,
 				CAC5D59C294A530B007EDE29 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC5D59E294A530B007EDE29 /* GameScene.swift in Sources */,
+				CAC5D5E229660694007EDE29 /* File.swift in Sources */,
 				CAC5D5A0294A530B007EDE29 /* GameViewController.swift in Sources */,
 				CAC5D598294A530B007EDE29 /* AppDelegate.swift in Sources */,
 			);
